@@ -129,8 +129,8 @@ padding-left: .2rem;
 
 }
 .c1{
-  width: 206px;
-  height: 90px;
+  width: 20rem;
+  height: 9rem;
   background: #FFFFFF;
   border-radius: 24px;
   margin-left: 5rem;
@@ -140,8 +140,8 @@ padding-left: .2rem;
  justify-content: center;
 }
 .c2{
-  width: 206px;
-height: 90px;
+  width: 20rem;
+height: 9rem;
 background: #FFFFFF;
 border-radius: 24px;
 display: flex;
@@ -187,6 +187,7 @@ color: #023047;
   width: 4rem;
 }
 .section2{
+  height: 73rem;
   display: flex;
   justify-content: space-between;
 
@@ -317,6 +318,70 @@ margin-bottom: 3rem;
 #click{
   display: none;
 }
+.section3{
+  height: 73rem;
+  background: linear-gradient(180deg, #6F7DFB 0%, #26308C 100%);
+}
+.section>p{
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 900;
+font-size: 6rem;
+line-height: 120%;
+text-align: center;
+color: #FFFFFF;
+}
+.course{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.course1{
+  display: flex;
+  flex-direction: column;
+  padding: 0px 32px;
+background: #FFFFFF;
+border-radius: 24px;
+margin: 5rem;
+width: 48rem;
+}
+.course1 .cname{
+  
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 900;
+font-size: 2.5rem;
+line-height: 100%;
+/* or 45px */
+text-align: start;
+margin-bottom: 5rem;
+margin-top: 5rem;
+display: inline;
+color: #023047;
+
+}
+.time{
+text-align: end;
+display: inline;
+
+}
+.time img{
+  width: 1.6rem;
+  height: auto;
+}
+.course2{
+align-items: center;
+display: flex;
+justify-content: space-between;}
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 1200px) {
   html{
@@ -352,11 +417,18 @@ margin-bottom: 3rem;
   html{
     font-size: 50%;
   }
+  .course{
+    flex-direction: column;
+    align-items: center;
+  }
  .section1{
   flex-direction: column;
   width: auto;
 
 align-items: center;
+ }
+ .section2{
+  height: 112rem;
  }
  header{
   height: auto;
@@ -379,9 +451,12 @@ align-items: center;
 margin-bottom: 8rem;
 }
 .section2{
+ 
   display: flex;
   flex-direction: column;
   align-items: center;
+  
+
   
 }
 .left{
@@ -441,4 +516,15 @@ nav .menu-btn i{
 #click:checked ~ .menu-btn i:before{
   content: "\f00d";
 }
+}
+@media only screen and (max-width: 550px){
+  .image img{
+   width: 70%;
+   margin-bottom: -44rem;
+  }
+  .c2{
+    margin-bottom: 12rem;
+    
+  }
+
 }
